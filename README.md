@@ -1,24 +1,23 @@
 # Traumacare_Post-registration_learners
 
-This repository contains the code, anomyised data and resources used for analysing survey data collected during the **World Anatomy Day 2024** community engagement event hosted by the *Human Anatomy Unit, University of Birmingham* on the 12th of October, 2024.
+This repository contains the code, anomyised data and resources used for analysing paper-based questionnaires collected during the two multimodal trauma-focused anatomy sessions created and delivered at the *Human Anatomy Unit, University of Birmingham* for post-registration nurses and allied healthcare professionals enrolled on Trauma Care modules with the University Hospitals Birmingham NHS Trust and validated by Buckinghamshire New University visiting the University of Birmingham.
 
 ## Repository Structure
-- **`notebooks/`** – Jupyter or Google Colab notebooks used for analysis and figure generation.  
-- **`Data/`** – An anonymised dataset will be made avialble on request.   
+- **`notebooks/`** – python notebook containing codes used for analysis and figure generation.  
+- **`Data/`** – An anonymised dataset when approved on request will be uploaded here.
+- **`Supplementary/`** – contains tables, content analsyis and final figures.    
+
 
 ## Methods Summary
-Descriptive statistics were performed for categorical questions and represented as frequencies and percentage on pie chart. Open-ended responses were analysed using content analysis.
-For quantitative analysis of the relationship between variables, the dataset was imported into Python 3.12 and analysed within a using a cloud-based Jupyter Notebook environment. `matplotlib`, `seaborn` libraries of Python 3.12 were used to generate visualisations, including scatterplots with regression lines. 
+Quantitative analyses were conducted using Python 3.11.8. Figures were generated using `matplotlib` 3.10.0, in addition to manually constructing a sunburst chart using Matplotlib wedge patches. Quantitative data were summarised descriptively using counts, percentages, medians and interquartile ranges. Likert-scale responses were treated as ordinal data. Mann–Whitney U tests were performed using  `scipy` as an exploratory comparison of unmatched pre-session and post-session ordinal ratings. Rank-biserial correlation was calculated as an effect size, with positive values indicating higher post-session ratings. Holm-adjusted p-values were calculated manually in `python` as a sensitivity analysis to account for multiple comparisons across knowledge domains examined. 
 
-Spearman’s rank-order correlation was used to assess associations between duration(time spent at the event), participants overall experience rating, and perceived impact on anatomical awareness.
+Open-ended responses were analysed using a descriptive content analysis to explore learners’ overall perceptions of the trauma-focused anatomy session. Verbatim comments were retained throughout the analysis to preserve participants’ wording and to support transparency between the raw data, subthemes and final themes. Theme and subtheme frequencies were calculated descriptively to summarise the distribution of coded comments. 
+
+
+## Ethical Statement
+Only consented responses were included in the analysis. Donor specimens were used within the governance arrangements of the University of Birmingham Human Anatomy Unit and in accordance with institutional procedures for anatomy teaching. Institutional ethics was obtained from the University of Birmimgham (ERN_5382-Nov2025). 
+
 
 ## Citation
-If you use or adapt this repository, please cite:
-> *World Anatomy Day Public Engagement Analysis* [Code repository]. GitHub.  
-> (https://github.com/CtrlJemima/WAD-24-Data-analysis.git)
-
-## Data Availability
-An anonymised dataset is provided for reproducibility. Ethical approval (University of Birmingham, ERN_3205-Nov2024).
-
-## Related Publication
-Once the Mauscript is accepted, the paper will be linked here.
+Once the Mauscript is accepted, the DOI or URL to the paper will be attached here.
+Please cite:
