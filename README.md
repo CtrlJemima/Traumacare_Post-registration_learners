@@ -7,6 +7,12 @@ This repository contains the code, anomyised data and resources used for analysi
 - **`Data/`** – An anonymised dataset when approved on request will be uploaded here.
 - **`Supplementary/`** – contains tables, content analsyis and final figures.    
 
+## Teaching Design and Aim
+The sessions included a thorax and limbs anatomy session and a neuroanatomy session, both delivered using a combination of donor specimens, digital anatomy platforms, radiological images, anatomical models, structured learning activities and clinically applied case-based discussion.
+The evaluation focused on three main areas:
+- Learner-reported anatomical knowledge before and after the teaching sessions.
+- Perceived usefulness of the teaching resources used during the sessions.
+- Learner-reported clinical applicability of the knowledge gained.
 
 ## Methods Summary
 Quantitative analyses were conducted using `python` 3.11.8. Figures were generated using `matplotlib` 3.10.0, in addition to manually constructing a sunburst chart using Matplotlib wedge patches. Quantitative data were summarised descriptively using counts, percentages, medians and interquartile ranges. Likert-scale responses were treated as ordinal data. Mann–Whitney U tests were performed using  `scipy` 1.15.2 as an exploratory comparison of unmatched pre-session and post-session ordinal ratings. Rank-biserial correlation was calculated as an effect size, with positive values indicating higher post-session ratings. Holm-adjusted p-values were calculated manually in `python` as a sensitivity analysis to account for multiple comparisons across knowledge domains examined. 
