@@ -3,7 +3,7 @@
 This repository contains the code, anomyised data and resources used for analysing paper-based questionnaires collected during the two multimodal trauma-focused anatomy sessions created and delivered at the *Human Anatomy Unit, University of Birmingham* for post-registration nurses and allied healthcare professionals enrolled on Trauma Care modules with the University Hospitals Birmingham NHS Trust and validated by Buckinghamshire New University visiting the University of Birmingham.
 
 ## Repository Structure
-- **`notebooks/`** – python notebook containing codes used for analysis and figure generation.  
+- **`notebook/`** – python notebook containing codes used for analysis and figure generation.  
 - **`Data/`** – An anonymised dataset when approved on request will be uploaded here.
 - **`Supplementary/`** – contains tables, content analsyis and final figures.    
 
